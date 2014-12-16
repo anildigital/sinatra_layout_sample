@@ -10,5 +10,5 @@ get '/' do
 end
 
 get '/:page' do
-  erb params[:page], :layout => :layout
+  erb params[:page].to_sym, :layout => :layout
 end
