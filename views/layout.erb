@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Sample Sinatra App to show layouts</title>
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
+  </head>
+  
+  <body>
+    <header>
+      <nav>
+        <ul id="navlist">
+          <li><a href="/">Home</a></li>
+          <li><a href="/section_a">Section A</a></li>
+          <li><a href="section_b">Section B</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <div id='main'>
+      <%= yield %>
+    </div>
+
+    <footer>
+      This is footer
+    </footer>
+  </body>
+</html>

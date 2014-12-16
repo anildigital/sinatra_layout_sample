@@ -1,0 +1,19 @@
+header {
+    background-color: #eee;
+    text-align: center;   
+}
+
+#navlist li
+{
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+footer 
+{
+    margin-top: 20px;
+    padding-left: 20px;
+    background-color: #eee;
+    text-align: center;
+}
