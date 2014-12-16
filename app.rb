@@ -9,11 +9,6 @@ get '/' do
   erb :index, :layout => :layout
 end
 
-get '/section_a' do
-  erb :section_a, :layout => :layout
-end
-
-
-get '/section_b' do
-  erb :section_b, :layout => :layout
+get '/:page' do
+  erb params[:page], :layout => :layout
 end
